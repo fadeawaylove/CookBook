@@ -7,6 +7,9 @@ const config: Config = {
   tagline: 'Brooks Price Action 学习笔记',
   favicon: 'img/favicon.ico',
 
+  // 客户端模块
+  clientModules: ['./src/plugin/sidebarAccordion.ts'],
+
   // GitHub Pages 配置
   url: 'https://fadeawaylove.github.io',
   baseUrl: '/CookBook/',
@@ -45,6 +48,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // 侧边栏配置
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     // 默认启用亮色模式
     colorMode: {
       defaultMode: 'light',
@@ -60,10 +69,28 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'terminology/index',
           position: 'left',
-          label: '课程目录',
+          label: '🚀 起步',
+        },
+        {
+          type: 'doc',
+          docId: 'cycle/index',
+          position: 'left',
+          label: '🔄 市场周期',
+        },
+        {
+          type: 'doc',
+          docId: 'trends/index',
+          position: 'left',
+          label: '📋 交易前提',
+        },
+        {
+          type: 'doc',
+          docId: 'breakouts/index',
+          position: 'left',
+          label: '⚡ 短线交易',
         },
         {
           href: 'https://github.com/fadeawaylove/CookBook',

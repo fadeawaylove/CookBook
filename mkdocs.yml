@@ -1,0 +1,63 @@
+site_name: Brooks Price Action 交易课程
+site_description: Brooks Price Action 交易课程学习笔记
+site_url: https://daigua.github.io/CookBook/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 首页: index.md
+  - 01-术语: 01-terminology/index.md
+  - 02-图表基础: 02-chart-basics/index.md
+  - 04-我的设置: 04-my-setup/index.md
+  - 06-人格特质: 06-personality-traits/index.md
+  - 07-入门: 07-starting-out/index.md
+  - 08-K线形态: 08-candles-setups/index.md
+  - 09-回调: 09-pullbacks/index.md
+  - 10-压力: 10-pressure/index.md
+  - 11-跳空: 11-gaps/index.md
+  - 12-市场周期: 12-cycle/index.md
+  - 13-始终在场: 13-always-in/index.md
+  - 14-趋势: 14-trends/index.md
+  - 15-突破: 15-breakouts/index.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - admonition
+  - codehilite
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/daigua/CookBook
+
+docs_dir: docs

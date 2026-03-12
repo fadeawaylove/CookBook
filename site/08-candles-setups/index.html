@@ -1,0 +1,2408 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Brooks Price Action 交易课程学习笔记">
+      
+      
+      
+        <link rel="canonical" href="https://daigua.github.io/CookBook/08-candles-setups/">
+      
+      
+        <link rel="prev" href="../07-starting-out/">
+      
+      
+        <link rel="next" href="../09-pullbacks/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>Candles and Setups - Brooks Price Action 交易课程</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#candles-and-setups" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="Brooks Price Action 交易课程" class="md-header__button md-logo" aria-label="Brooks Price Action 交易课程" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Brooks Price Action 交易课程
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Candles and Setups
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../01-terminology/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  01-术语
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../02-chart-basics/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  02-图表基础
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../04-my-setup/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  04-我的设置
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../06-personality-traits/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  06-人格特质
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../07-starting-out/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  07-入门
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  08-K线形态
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../09-pullbacks/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  09-回调
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../10-pressure/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  10-压力
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../11-gaps/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  11-跳空
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../12-cycle/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  12-市场周期
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../13-always-in/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  13-始终在场
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../14-trends/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  14-趋势
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../15-breakouts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  15-突破
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Brooks Price Action 交易课程" class="md-nav__button md-logo" aria-label="Brooks Price Action 交易课程" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Brooks Price Action 交易课程
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-terminology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01-术语
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-chart-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02-图表基础
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-my-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04-我的设置
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-personality-traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06-人格特质
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-starting-out/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07-入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08-K线形态
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08-K线形态
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ktrend-bars-and-tr-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、K线分类基础（Trend bars and TR bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、K线分类基础（Trend bars and TR bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-trend-barsk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Trend bars（趋势K线）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tr-barsk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. TR bars（交易区间K线）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 判断法则（形态→背景）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 影线本质（失败突破）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ksignal-bars-and-entry-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、信号K线与入场（Signal bars and entry bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、信号K线与入场（Signal bars and entry bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 基础定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 入场规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kbad-signal-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、不良信号K线（Bad signal bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、不良信号K线（Bad signal bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 现实情况
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 弱信号仍能交易的条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 重要警告
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kreversal-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、反转K线（Reversal bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、反转K线（Reversal bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 反转K线类型区分
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-kbull-reversal-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 最佳买入信号K线（Bull Reversal Bar）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-k2-bar-reversal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 双K反转（2 Bar Reversal）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kmulti-bar-reversals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、多根K线反转（Multi Bar Reversals）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、多根K线反转（Multi Bar Reversals）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 核心定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 关键特征
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 时间框架关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ib-ob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、内包线与外包线（IB &amp; OB）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、内包线与外包线（IB &amp; OB）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-inside-bar-ib-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Inside Bar (IB) - 内包线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-outside-bar-ob-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Outside Bar (OB) - 外包线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ib-vs-ob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. IB vs OB 对比
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ttr-as-setups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、窄幅交易区间（TTR as Setups）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、窄幅交易区间（TTR as Setups）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ttr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. TTR基础概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-small-ttr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Small TTR中的具体形态
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 背景判断标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iibom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、ii与突破模式（BOM）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="八、ii与突破模式（BOM）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. ii 基础概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ii-final-flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ii 作为 Final Flag 的风险
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        九、交易设置定义（What is a setup?）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="九、交易设置定义（What is a setup?）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Setup 的两个组成部分
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 坏背景的具体场景
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 强趋势中的顺背景交易
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weak-setup-need-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十、弱设置需等待（Weak Setup, Need More）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十、弱设置需等待（Weak Setup, Need More）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 三种等待策略
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 强突破与跟进确认
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2nd-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十一、第二信号（2nd Signal）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十一、第二信号（2nd Signal）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 何时等待第二信号
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 风险与概率的权衡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 核心要点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#countertrend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十二、逆势交易（Countertrend）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十二、逆势交易（Countertrend）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 逆势交易的核心原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 弱逆势信号K线的例子
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 核心要点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-pullbacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09-回调
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-pressure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10-压力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-gaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11-跳空
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-cycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12-市场周期
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-always-in/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13-始终在场
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-trends/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14-趋势
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-breakouts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15-突破
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ktrend-bars-and-tr-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、K线分类基础（Trend bars and TR bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、K线分类基础（Trend bars and TR bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-trend-barsk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Trend bars（趋势K线）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tr-barsk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. TR bars（交易区间K线）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 判断法则（形态→背景）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 影线本质（失败突破）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ksignal-bars-and-entry-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、信号K线与入场（Signal bars and entry bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、信号K线与入场（Signal bars and entry bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 基础定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 入场规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kbad-signal-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、不良信号K线（Bad signal bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、不良信号K线（Bad signal bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 现实情况
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 弱信号仍能交易的条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 重要警告
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kreversal-bars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、反转K线（Reversal bars）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、反转K线（Reversal bars）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 反转K线类型区分
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-kbull-reversal-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 最佳买入信号K线（Bull Reversal Bar）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-k2-bar-reversal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 双K反转（2 Bar Reversal）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kmulti-bar-reversals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、多根K线反转（Multi Bar Reversals）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、多根K线反转（Multi Bar Reversals）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 核心定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 关键特征
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 时间框架关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ib-ob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、内包线与外包线（IB &amp; OB）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、内包线与外包线（IB &amp; OB）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-inside-bar-ib-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Inside Bar (IB) - 内包线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-outside-bar-ob-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Outside Bar (OB) - 外包线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ib-vs-ob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. IB vs OB 对比
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ttr-as-setups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、窄幅交易区间（TTR as Setups）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、窄幅交易区间（TTR as Setups）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ttr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. TTR基础概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-small-ttr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Small TTR中的具体形态
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 背景判断标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iibom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、ii与突破模式（BOM）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="八、ii与突破模式（BOM）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. ii 基础概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ii-final-flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ii 作为 Final Flag 的风险
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        九、交易设置定义（What is a setup?）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="九、交易设置定义（What is a setup?）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Setup 的两个组成部分
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 坏背景的具体场景
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 强趋势中的顺背景交易
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weak-setup-need-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十、弱设置需等待（Weak Setup, Need More）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十、弱设置需等待（Weak Setup, Need More）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 三种等待策略
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 强突破与跟进确认
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2nd-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十一、第二信号（2nd Signal）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十一、第二信号（2nd Signal）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 何时等待第二信号
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 风险与概率的权衡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 核心要点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#countertrend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        十二、逆势交易（Countertrend）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="十二、逆势交易（Countertrend）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 逆势交易的核心原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 弱逆势信号K线的例子
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 核心要点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="candles-and-setups">Candles and Setups</h1>
+<h2 id="ktrend-bars-and-tr-bars">一、K线分类基础（Trend bars and TR bars）</h2>
+<blockquote>
+<p>💡 <strong>核心：图表上每根K线只能是Trend bar或TR bar，没有第三种</strong></p>
+</blockquote>
+<h3 id="1-trend-barsk">1. Trend bars（趋势K线）</h3>
+<ul>
+<li>形态：大实体（≥50%）+ 小影线</li>
+<li>波动：范围 ≥ 平均水平</li>
+<li>连续性：3根以上同色K线即使单根小也算趋势</li>
+</ul>
+<h3 id="2-tr-barsk">2. TR bars（交易区间K线）</h3>
+<ul>
+<li>形态：小实体 + 明显影线</li>
+<li>含义：多空博弈激烈，力量均衡</li>
+</ul>
+<h3 id="3">3. 判断法则（形态→背景）</h3>
+<ul>
+<li>形态判断（初级）：实体占比 &gt; 50% = 趋势K线</li>
+<li>背景判断（进阶）：<div class="language-text highlight"><pre><span></span><code>                        强趋势中 + 小实体K线 → 仍算Trend bar
+                        横盘市场中 + 大实体K线 → 仍算TR bar
+</code></pre></div>
+</li>
+</ul>
+<h3 id="4">4. 影线本质（失败突破）</h3>
+<ul>
+<li>形成机制：突破 → 被打回 → 影线</li>
+<li>多周期验证：<div class="language-text highlight"><pre><span></span><code>                        高周期（5分钟）：看到结果（影线）
+                        低周期（1分钟）：看到过程（突破失败细节）
+</code></pre></div>
+</li>
+</ul>
+<hr />
+<h2 id="ksignal-bars-and-entry-bars">二、信号K线与入场（Signal bars and entry bars）</h2>
+<blockquote>
+<p>💡 <strong>特殊情况：合二为一 — 信号K线本身就是入场K线（收盘时直接入场）</strong></p>
+</blockquote>
+<h3 id="1">1. 基础定义</h3>
+<ul>
+<li>Signal Bar（信号K线）：促使你产生交易想法的前一根K线</li>
+<li>Entry Bar（入场K线）：你实际下单交易的那根K线</li>
+<li>时间顺序：Signal Bar → Entry Bar（相邻两根K线）</li>
+</ul>
+<h3 id="2">2. 入场规则</h3>
+<ul>
+<li>做多：在信号K线高点上方 1 tick 挂买单</li>
+<li>做空：在信号K线低点下方 1 tick 挂卖单</li>
+<li>限价单设置：在信号K线外侧1个tick放置止损单</li>
+</ul>
+<hr />
+<h2 id="kbad-signal-bars">三、不良信号K线（Bad signal bars）</h2>
+<blockquote>
+<p>💡 <strong>核心原则：背景 &gt; 信号！好背景下，不良信号也能做</strong></p>
+</blockquote>
+<h3 id="1_1">1. 现实情况</h3>
+<ul>
+<li>程序化交易时代，强信号K线越来越少（约1%）</li>
+<li>市场常突然出现无信号的大趋势K线</li>
+</ul>
+<h3 id="2_1">2. 弱信号仍能交易的条件</h3>
+<ul>
+<li>与前K线无太多重叠</li>
+<li>收盘价能反转至少1根K线</li>
+</ul>
+<h3 id="3_1">3. 重要警告</h3>
+<ul>
+<li>这是初学者寻求心理安慰的行为</li>
+</ul>
+<hr />
+<h2 id="kreversal-bars">四、反转K线（Reversal bars）</h2>
+<blockquote>
+<p>💡 <strong>Reversal bars是最强的信号K线类型，获利概率最高</strong></p>
+</blockquote>
+<h3 id="1-k">1. 反转K线类型区分</h3>
+<ul>
+<li>Buy Reversal Bar：收盘 &gt; 中点</li>
+<li>Sell Reversal Bar：收盘 &lt; 中点</li>
+</ul>
+<h3 id="2-kbull-reversal-bar">2. 最佳买入信号K线（Bull Reversal Bar）</h3>
+<ul>
+<li>开盘：接近或低于前K线收盘价</li>
+<li>收盘：远高于前K线收盘价（收盘&gt;开盘）</li>
+<li>重叠：与前K线没有太多重叠</li>
+<li>下影线：约占K线高度的 1/3 到 1/2</li>
+<li>上影线：很小或不存在</li>
+</ul>
+<h3 id="3-k2-bar-reversal">3. 双K反转（2 Bar Reversal）</h3>
+<ul>
+<li>定义：当反转发生在 2根或更多K线 上时形成</li>
+<li>常见形态：回调或旗形中的信号K线都是反转K线</li>
+</ul>
+<hr />
+<h2 id="kmulti-bar-reversals">五、多根K线反转（Multi Bar Reversals）</h2>
+<blockquote>
+<p>💡 <strong>核心：突破后经过2根或更多K线才完成的反转形态，可简称为 "Reversal"</strong></p>
+</blockquote>
+<h3 id="1_2">1. 核心定义</h3>
+<ul>
+<li>Multi Bar Reversal：突破后2根或更多K线后反转</li>
+<li>可以直接简称为 "Reversal"，不必纠结具体几根K线</li>
+</ul>
+<h3 id="2_2">2. 关键特征</h3>
+<ul>
+<li>可以间隔几根K线形成</li>
+</ul>
+<h3 id="3_2">3. 时间框架关系</h3>
+<ul>
+<li>5分钟图的多根K线 ≈ 15分钟图的单根反转K线</li>
+</ul>
+<hr />
+<h2 id="ib-ob">六、内包线与外包线（IB &amp; OB）</h2>
+<blockquote>
+<p>💡 <strong>两种重要的双K线反转形态，用于识别趋势延续或反转</strong></p>
+</blockquote>
+<h3 id="1-inside-bar-ib-">1. Inside Bar (IB) - 内包线</h3>
+<ul>
+<li>定义：当前K线完全包含在前一根K线范围内</li>
+<li>高点 ≤ 前一根K线的高点，低点 ≥ 前一根K线的低点</li>
+<li>市场含义：收敛、整理、蓄势犹豫</li>
+</ul>
+<h3 id="2-outside-bar-ob-">2. Outside Bar (OB) - 外包线</h3>
+<ul>
+<li>定义：当前K线完全覆盖前一根K线范围</li>
+<li>高点 ≥ 前一根K线的高点，低点 ≤ 前一根K线的低点</li>
+<li>市场含义：扩张、突破、动能释放</li>
+<li>开盘后首小时出现的大型OB，常开启波段交易</li>
+</ul>
+<h3 id="3-ib-vs-ob">3. IB vs OB 对比</h3>
+<hr />
+<h2 id="ttr-as-setups">七、窄幅交易区间（TTR as Setups）</h2>
+<blockquote>
+<p>💡 <strong>核心：TTR内的任何设置都可能是陷阱；背景 &gt; 形态</strong></p>
+</blockquote>
+<h3 id="1-ttr">1. TTR基础概念</h3>
+<ul>
+<li>Small TTR：2-4根K线的窄幅区间，可作为信号K线，但需要好背景</li>
+</ul>
+<h3 id="2-small-ttr">2. Small TTR中的具体形态</h3>
+<h3 id="3_3">3. 背景判断标准</h3>
+<hr />
+<h2 id="iibom">八、ii与突破模式（BOM）</h2>
+<blockquote>
+<p>💡 <strong>核心：ii是极度收敛的平衡状态，处于Breakout Mode（突破模式）</strong></p>
+</blockquote>
+<h3 id="1-ii">1. ii 基础概念</h3>
+<ul>
+<li>ii：连续两根内包线 (Inside-Inside)</li>
+<li>iii：连续三根内包线（更罕见）</li>
+<li>做多入场：在 ii 高点上方 1 tick 挂买单</li>
+<li>需要好背景配合</li>
+</ul>
+<h3 id="3-ii-final-flag">3. ii 作为 Final Flag 的风险</h3>
+<hr />
+<h2 id="what-is-a-setup">九、交易设置定义（What is a setup?）</h2>
+<blockquote>
+<p>💡 <strong>核心：Context（背景）&gt; Signal Bar（信号K线）</strong></p>
+</blockquote>
+<h3 id="1-setup">1. Setup 的两个组成部分</h3>
+<ul>
+<li>组成部分说明重要性
+                                Signal Bar触发交易想法的K线形态次要
+                                Context当前市场环境、趋势状态首要</li>
+</ul>
+<h3 id="2_3">2. 坏背景的具体场景</h3>
+<h3 id="3_4">3. 强趋势中的顺背景交易</h3>
+<hr />
+<h2 id="weak-setup-need-more">十、弱设置需等待（Weak Setup, Need More）</h2>
+<blockquote>
+<p>💡 <strong>核心：弱信号+弱背景=低概率；等待更高概率机会或等待确认</strong></p>
+</blockquote>
+<h3 id="1_3">1. 三种等待策略</h3>
+<h3 id="2_4">2. 强突破与跟进确认</h3>
+<hr />
+<h2 id="2nd-signal">十一、第二信号（2nd Signal）</h2>
+<blockquote>
+<p>💡 <strong>核心：弱设置时等待第二信号，以获得更高概率入场机会</strong></p>
+</blockquote>
+<h3 id="1_4">1. 何时等待第二信号</h3>
+<ul>
+<li>强趋势后的楔形顶部，等待第二卖出信号</li>
+<li>强熊突破后的回调 = 第二入场点做空机会</li>
+</ul>
+<h3 id="3_5">3. 风险与概率的权衡</h3>
+<ul>
+<li>类型风险特征概率特征
+                                小风险设置小K线，止损近低盈利概率
+                                高概率设置需要更远的止损高盈利概率，但风险更大</li>
+</ul>
+<h3 id="4_1">4. 核心要点</h3>
+<hr />
+<h2 id="countertrend">十二、逆势交易（Countertrend）</h2>
+<blockquote>
+<p>💡 <strong>核心：逆势交易风险极高，必须使用强信号K线，否则必败</strong></p>
+</blockquote>
+<h3 id="1_5">1. 逆势交易的核心原则</h3>
+<h3 id="2-k">2. 弱逆势信号K线的例子</h3>
+<h3 id="5">5. 核心要点</h3>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/daigua/CookBook" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
