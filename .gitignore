@@ -10,6 +10,10 @@
 
 # Virtual environment
 .venv/
+venv/
+
+# MkDocs build output
+site/
 
 # Misc
 .DS_Store
