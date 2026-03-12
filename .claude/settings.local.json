@@ -67,7 +67,18 @@
       "Bash(python -m venv .venv)",
       "Bash(.venv/Scripts/python.exe -m pip install mkdocs mkdocs-material)",
       "Bash(.venv/Scripts/python.exe -m mkdocs build)",
-      "Bash(.venv/Scripts/python.exe -m pip freeze > requirements.txt)"
+      "Bash(.venv/Scripts/python.exe -m pip freeze > requirements.txt)",
+      "Bash(python -m venv venv)",
+      "Bash(source venv/Scripts/activate && pip install -r requirements.txt)",
+      "WebFetch(domain:127.0.0.1)",
+      "Bash(curl -s http://127.0.0.1:8000/ | grep -o '<nav[^>]*class=\"[^\"]*\"[^>]*>.*</nav>' | head -5)",
+      "Bash(curl -s http://127.0.0.1:8000/ | grep -i \"sidebar\\\\|navigation\" | head -20)",
+      "Bash(curl -sL http://127.0.0.1:8000/ | head -100)",
+      "Bash(pkill -f \"mkdocs serve\" 2>/dev/null; sleep 1)",
+      "Bash(sleep 3 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
+      "Bash(cd C:/code/CookBook && source venv/Scripts/activate && mkdocs serve --dev-addr=127.0.0.1:8000)",
+      "Bash(sleep 4 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
+      "Bash(sleep 2 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)"
     ]
   }
 }

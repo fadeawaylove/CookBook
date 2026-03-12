@@ -23,24 +23,28 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - search.suggest
     - search.highlight
 
 nav:
   - 首页: index.md
-  - 01-术语: 01-terminology/index.md
-  - 02-图表基础: 02-chart-basics/index.md
-  - 04-我的设置: 04-my-setup/index.md
-  - 06-人格特质: 06-personality-traits/index.md
-  - 07-入门: 07-starting-out/index.md
-  - 08-K线形态: 08-candles-setups/index.md
-  - 09-回调: 09-pullbacks/index.md
-  - 10-压力: 10-pressure/index.md
-  - 11-跳空: 11-gaps/index.md
-  - 12-市场周期: 12-cycle/index.md
-  - 13-始终在场: 13-always-in/index.md
-  - 14-趋势: 14-trends/index.md
-  - 15-突破: 15-breakouts/index.md
+  - 起步:
+    - 01-术语: 01-terminology/index.md
+    - 02-图表基础: 02-chart-basics/index.md
+    - 04-我的设置: 04-my-setup/index.md
+    - 06-人格特质: 06-personality-traits/index.md
+    - 07-入门: 07-starting-out/index.md
+  - 图表分析:
+    - 08-K线形态: 08-candles-setups/index.md
+    - 09-回调: 09-pullbacks/index.md
+    - 10-压力: 10-pressure/index.md
+  - 市场周期:
+    - 11-跳空: 11-gaps/index.md
+    - 12-市场周期: 12-cycle/index.md
+    - 13-始终在场: 13-always-in/index.md
+    - 14-趋势: 14-trends/index.md
+    - 15-突破: 15-breakouts/index.md
 
 markdown_extensions:
   - attr_list
