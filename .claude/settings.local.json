@@ -78,7 +78,18 @@
       "Bash(sleep 3 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
       "Bash(cd C:/code/CookBook && source venv/Scripts/activate && mkdocs serve --dev-addr=127.0.0.1:8000)",
       "Bash(sleep 4 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
-      "Bash(sleep 2 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)"
+      "Bash(sleep 2 && curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)",
+      "Bash(openspec new:*)",
+      "Bash(openspec status:*)",
+      "Bash(openspec instructions:*)",
+      "Bash(docs/02-chart-basics/index.md:*)",
+      "Bash(openspec list:*)",
+      "Bash(ls -la docs/*/index.md 2>/dev/null | head -20)",
+      "Bash(ls -la docs/*/index.md | wc -l && echo \"---\" && ls docs/*/index.md | head -20)",
+      "Bash(ls -la \"docs/images/01 Terminology/\" | grep -E \"\\\\.png$|\\\\.jpg$\")",
+      "Bash(curl -s http://localhost:8000/09-pullbacks-bar-counting/ -o /dev/null -w \"%{http_code}\")",
+      "Bash(ls -la docs/09*)",
+      "Bash(git push:*)"
     ]
   }
 }
