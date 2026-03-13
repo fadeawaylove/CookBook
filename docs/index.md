@@ -19,7 +19,7 @@ slug: /
 | **06** | [人格特质](06-personality-traits/index.md) | 成功交易者的特质 |
 | **07** | [入门](07-starting-out/index.md) | 交易入门指南 |
 | **08** | [K线形态](08-candles-setups/index.md) | 蜡烛图、形态与信号K线 |
-| **09** | [回调](09-pullbacks/index.md) | 回撤与K线计数 |
+| **09** | [回调和数K线](09-pullbacks-bar-counting/index.md) | 回撤与K线计数 |
 | **10** | [压力](10-pressure/index.md) | 买单与卖单压力 |
 | **11** | [跳空](11-gaps/index.md) | 跳空缺口 |
 | **12** | [市场周期](12-cycle/index.md) | 市场周期 |

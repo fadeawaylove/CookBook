@@ -37,7 +37,7 @@ nav:
     - 07-入门: 07-starting-out/index.md
   - 图表分析:
     - 08-K线形态: 08-candles-setups/index.md
-    - 09-回调: 09-pullbacks/index.md
+    - 09-回调和数K线: 09-pullbacks-bar-counting/index.md
     - 10-压力: 10-pressure/index.md
   - 市场周期:
     - 11-跳空: 11-gaps/index.md

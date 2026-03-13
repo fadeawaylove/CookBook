@@ -9,6 +9,8 @@ title: Candles and Setups
 
 > 💡 **核心：图表上每根K线只能是Trend bar或TR bar，没有第三种**
 
+![K线分类总览](../images/08%20Candles,%20Setups,%20and%20Signal%20Bars/slide01_image1.png)
+
 
 ### 1. Trend bars（趋势K线）
 
@@ -16,24 +18,30 @@ title: Candles and Setups
 - 波动：范围 ≥ 平均水平
 - 连续性：3根以上同色K线即使单根小也算趋势
 
+![Trend bars示例](../images/08%20Candles,%20Setups,%20and%20Signal%20Bars/slide02_image1.png)
+
 ### 2. TR bars（交易区间K线）
 
 - 形态：小实体 + 明显影线
 - 含义：多空博弈激烈，力量均衡
 
+![TR bars示例](../images/08%20Candles,%20Setups,%20and%20Signal%20Bars/slide02_image2.png)
+
 ### 3. 判断法则（形态→背景）
 
 - 形态判断（初级）：实体占比 > 50% = 趋势K线
 - 背景判断（进阶）：
-                            
+
                                 强趋势中 + 小实体K线 → 仍算Trend bar
                                 横盘市场中 + 大实体K线 → 仍算TR bar
+
+![背景判断](../images/08%20Candles,%20Setups,%20and%20Signal%20Bars/slide03_image1.png)
 
 ### 4. 影线本质（失败突破）
 
 - 形成机制：突破 → 被打回 → 影线
 - 多周期验证：
-                            
+
                                 高周期（5分钟）：看到结果（影线）
                                 低周期（1分钟）：看到过程（突破失败细节）
 
@@ -42,6 +50,8 @@ title: Candles and Setups
 ## 二、信号K线与入场（Signal bars and entry bars）
 
 > 💡 **特殊情况：合二为一 — 信号K线本身就是入场K线（收盘时直接入场）**
+
+![信号K线与入场K线](../images/08%20Candles,%20Setups,%20and%20Signal%20Bars/slide09_image1.png)
 
 
 ### 1. 基础定义
