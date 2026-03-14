@@ -9,6 +9,7 @@ title: Gaps (跳空缺口)
 
 > 💡 **核心：缺口是价格图表上没有交易发生的区域，是供需严重失衡的体现**
 
+![课程封面 - 跳空缺口](../images/11%20Gaps/slide01_image1.png)
 
 ### 1. 缺口的基本概念
 
@@ -33,6 +34,7 @@ title: Gaps (跳空缺口)
 
 > 💡 **在下一根K线就被回补的缺口**
 
+![缺口的定义 - Brooks对缺口的多种定义](../images/11%20Gaps/slide02_image1.png)
 
 ### 1. Brooks的定义
 
@@ -55,12 +57,15 @@ title: Gaps (跳空缺口)
 - 突破（BO）测试信号K线
 - K线与移动平均线之间的空间
 
+![缺口回补 - 传统缺口在下一根K线收盘](../images/11%20Gaps/slide05_image1.png)
+
 ---
 
 ## 三、缺口的类型 (Gap Types)Slide 4
 
 > 💡 **出现在趋势末期**
 
+![缺口类型 - 传统缺口类型详解](../images/11%20Gaps/slide03_image1.png)
 
 ### 1. 突破缺口 (Break Away Gap)
 
@@ -92,6 +97,7 @@ title: Gaps (跳空缺口)
 
 > 💡 **向上跳空 + 向下跳空**
 
+![岛屿顶部与底部 - 反转形态](../images/11%20Gaps/slide04_image1.png)
 
 ### 1. 岛屿顶部 (Island Top)
 
@@ -108,6 +114,8 @@ title: Gaps (跳空缺口)
 - 岛屿只是反转的一种形式
 
 ### 4. 缺口的灵活性Slide 6
+
+![缺口的灵活性 - 岛屿中的多个缺口](../images/11%20Gaps/slide06_image1.png)
 
 - 岛屿中的缺口不需要在同一价格水平
 - 岛屿通常包含多个向上或向下的缺口

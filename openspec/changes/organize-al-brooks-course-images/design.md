@@ -8,9 +8,7 @@ The system will organize trading course screenshots into a hierarchical structur
 
 ```
 docs/
-├── .vitepress/
-│   ├── config.mts          # Navigation configuration
-│   └── theme/
+├── .mkdocs/                # MkDocs configuration (if any)
 ├── images/                  # Original image storage (unchanged)
 │   ├── 01 Terminology/
 │   ├── 02 Chart basics and price action/
@@ -94,42 +92,32 @@ Key takeaways from this chapter.
 
 ## Navigation Configuration
 
-The VitePress config will be updated to include the new course navigation:
+The MkDocs navigation will be updated in `mkdocs.yml` to include the new course structure:
 
-```typescript
-// .vitepress/config.mts
-export default defineConfig({
-  themeConfig: {
-    sidebar: {
-      '/course/': [
-        {
-          text: 'Al Brooks Trading Course',
-          items: [
-            { text: 'Course Overview', link: '/course/' },
-            {
-              text: 'Getting Started (01-07)',
-              collapsed: true,
-              items: [
-                { text: 'Overview', link: '/course/01-getting-started/' },
-                { text: 'Terminology', link: '/course/01-getting-started/01-terminology' },
-                // ...
-              ]
-            },
-            // ... other chapters
-          ]
-        }
-      ]
-    }
-  }
-})
+```yaml
+nav:
+  - 首页: docs/index.md
+  - 课程:
+    - 课程总览: docs/index.md
+    - 起步 (01-07):
+      - 总览: docs/01-getting-started/index.md
+      - 01-术语: docs/01-getting-started/index.md
+      # ... other sections
+    - 图表分析 (08-11):
+      - 总览: docs/02-charting-analysis/index.md
+      - 08-K线形态: docs/02-charting-analysis/08-candles-setups.md
+      # ... other sections
+    # ... other chapters
 ```
+
+The existing navigation items will be reorganized under the new course structure.
 
 ## Implementation Phases
 
 ### Phase 1: Infrastructure (Priority 1)
 - Create directory structure
 - Set up page templates
-- Update VitePress navigation config
+- Update MkDocs navigation config in `mkdocs.yml`
 
 ### Phase 2: Content Creation (Priority 2)
 - Create chapter summary pages

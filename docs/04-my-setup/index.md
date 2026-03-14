@@ -8,6 +8,10 @@
 
 ---
 
+![我的家庭办公室 - 专注原则](../images/04%20My%20Setup/slide01_image2.png)
+
+---
+
 ## 1. 家庭办公室设置
 
 ### Al Brooks 的交易环境

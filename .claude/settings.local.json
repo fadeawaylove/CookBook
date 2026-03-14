@@ -89,7 +89,14 @@
       "Bash(ls -la \"docs/images/01 Terminology/\" | grep -E \"\\\\.png$|\\\\.jpg$\")",
       "Bash(curl -s http://localhost:8000/09-pullbacks-bar-counting/ -o /dev/null -w \"%{http_code}\")",
       "Bash(ls -la docs/09*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(find . -type f -name *.md)",
+      "Bash(find . -name \"tasks*.md\" -o -name \"*task*.md\" 2>/dev/null | head -20)",
+      "Bash(find . -path ./.git -prune -o -type f -name \"*.md\" -print 2>/dev/null | head -30)",
+      "Bash(grep -rn \"!\\\\[\" docs/ --include=\"*.md\" 2>/dev/null | head -30)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Skill(ralph-loop:cancel-ralph)"
     ]
   }
 }
