@@ -1,0 +1,70 @@
+{
+  "analysis_date": "2026-03-15",
+  "image_range": "slide35_image1.png through slide51_image1.png",
+  "total_slides_analyzed": 17,
+  "topic": "Pullbacks and Bar Counting Technical Analysis (回撤与K线计数)",
+  "slides": [
+    {
+      "slide_number": "slide35",
+      "title": "Flag and Reversal: Trade Them the Same Way",
+      "description": "This slide explains that Double Tops (DT) and Double Bottoms (DB) should be traded the same way regardless of whether they are called flags or reversals. Key concepts include: Every DT in bear is a Low 2 sell setup and a DT Bear Flag. Once clearly a bear trend, a DT becomes a bear flag. Every DB in bull is a High 2 buy setup. The chart shows H1/H2 and L1/L2 counting with DT LH MTR patterns and expanding triangle formations.",
+      "key_concepts": ["DT Bear Flag pattern", "High 2 buy setup (H2)", "Low 2 sell setup (L2)", "Double Bottom in bull (DB)", "Expanding Triangle"]
+    },
+    {
+      "slide_number": "slide36",
+      "title": "DT, but Not yet Clear Bear Trend: Call It DT LH Reversal",
+      "description": "This slide distinguishes between DT patterns in different trend contexts. A DT early in a bear trend is called a DT LH MTR (Lower High Major Trend Reversal). However, DT once a clear bear trend is established becomes a DT Bear Flag. The chart shows the transition from reversal pattern to continuation pattern based on trend strength, with L1, L2, H1 markers showing the pullback counting methodology.",
+      "key_concepts": ["DT LH MTR (Lower High Major Trend Reversal)", "Trend context importance", "DT Bear Flag in established trend", "Pattern transformation based on trend strength"]
+    },
+    {
+      "slide_number": "slide37",
+      "title": "Consecutive Bottoms: High 4, 5, or 6",
+      "description": "This slide explains consecutive bottom patterns and their corresponding High counts. Consecutive bottoms can be High 4, 5, or 6. Each bottom attempt has 2 or 3 legs, so each is either High 2 or High 3. When the 1st reversal attempt is a Wedge, it is a H3. If the 2nd reversal attempt is H2, you get H5 buy signal. If the 2nd attempt is also a Wedge, you get H6 buy signal. The chart shows H1, H2, H3, H4, H5 progression with buy reversal signals marked.",
+      "key_concepts": ["Consecutive bottoms (High 4, 5, 6)", "H5 buy signal", "H6 buy signal", "Wedge reversal patterns", "Multiple leg bottom attempts"]
+    },
+    {
+      "slide_number": "slide38",
+      "title": "Buy Signal: Exit If Fails",
+      "description": "This slide focuses on risk management for buy signals. It shows a Tight Bear Channel with many bear bars closing on lows. Buying reversal above a weak buy signal bar has low probability of profit. Exit strategies include: Exit below Low 2 Bear Flag, or below Wedge Bottom. The chart shows H1, H2, H3 marking pullback legs with buy reversal up signals. It also notes that High 4 and Low 4 setups are the same as Elliott Wave double zig zag pattern.",
+      "key_concepts": ["Buy signal exit strategies", "Low 2 Bear Flag", "Wedge Bottom exit", "Tight Bear Channel characteristics", "Elliott Wave double zig zag"]
+    },
+    {
+      "slide_number": "slide39",
+      "title": "High 4: Often Is High 2 + High 2",
+      "description": "This slide explains that High 4 often consists of two High 2 patterns combined. The chart shows a Bear BO (Breakout) that results in a failed H2 buy signal. Many bulls will begin the count over after a failure, while other bulls will assume the price is still pulling back to H3 or H4 bull flag. The H2 buy triggered by 0.1 pip BO shows how precise entry points can be. This demonstrates the flexibility in counting approaches among different traders.",
+      "key_concepts": ["High 4 as H2 + H2", "Failed H2 buy signal", "Count reset after failure", "H3/H4 bull flag pullback", "0.1 pip breakout entry"]
+    },
+    {
+      "slide_number": "slide40",
+      "title": "Strong Bear Trend: Never Look for Bottoms",
+      "description": "This slide provides a critical rule for trading strong bear trends: 80% of reversals fail in strong trends. The channel is too tight for a major reversal, and traders typically only get minor reversals which are bear flags. Only look for H1, H2 buy setups in bull trends or trading ranges, never in strong bear trends. The chart shows multiple L1 and H1 markers in a declining market. Great traders expect bottoms to fail and only look to sell in strong bear trends.",
+      "key_concepts": ["Strong bear trend characteristics", "80% reversal failure rate", "Never buy in strong bear trend", "L1 bear flag sell setup", "Expect bottoms to fail"]
+    },
+    {
+      "slide_number": "slide41",
+      "title": "Consecutive Tops: Low 4, 5, or 6",
+      "description": "This slide is the mirror image of slide 37, focusing on consecutive tops. Consecutive tops can be Low 4, 5, or 6. Each top attempt has 2 or 3 legs, so each is either Low 2 or Low 3. When the 1st reversal attempt is a Wedge, it is an L3. If the 2nd reversal attempt is L2, you get L5 sell signal. If the 2nd attempt is also a Wedge, you get L6 sell signal. The chart shows L1, L2, L3, L4, L5 progression with sell reversal signals marked.",
+      "key_concepts": ["Consecutive tops (Low 4, 5, 6)", "L5 sell signal", "L6 sell signal", "Wedge top reversals", "Multiple leg top attempts"]
+    },
+    {
+      "slide_number": "slide42",
+      "title": "Low 4: Often Is Low 2 + Low 2",
+      "description": "This slide explains that Low 4 often consists of two Low 2 patterns combined. The chart shows a bull breakout that results in a failed L2 sell signal. Many bears will begin the count over after a failure, while other bears will assume the price is still pulling back to L3 or L4 bear flag. This demonstrates how traders have different approaches to counting after a failed signal - some restart the count while others continue the existing count expecting deeper pullback levels.",
+      "key_concepts": ["Low 4 as L2 + L2", "Failed L2 sell signal", "Count reset after failure", "L3/L4 bear flag pullback", "Trader psychology in counting"]
+    },
+    {
+      "slide_number": "slide43",
+      "title": "Sell Signal: Exit If Fails",
+      "description": "This slide focuses on risk management for sell signals. It shows a Tight Bull Channel with many bull bars closing on highs. Selling reversal below a weak sell signal bar has low probability of profit. Exit strategies include: Exit with loss above Wedge Top. The chart shows L1, L2, L3, L4, L5 marking pullback legs with sell reversal down signals. This demonstrates the importance of having clear exit rules when sell signals fail, particularly in strong bullish environments where counter-trend selling is dangerous.",
+      "key_concepts": ["Sell signal exit strategies", "Wedge Top exit", "Tight Bull Channel characteristics", "L5 sell progression", "Risk management for failed sells"]
+    },
+    {
+      "slide_number": "slide44",
+      "title": "Strong Bull Trends: Never Look for Tops",
+      "description": "This slide provides the mirror rule to slide 40 for bull trends. The chart shows a strong bull trend with multiple L1, L2, L3, L4, L5, L6 markers indicating micro pullbacks within the larger trend. The blue shaded area shows where the trend becomes a Trading Range (TR) and is no longer a strong trend. Only look for L1, L2 sell setups in bear trends or trading ranges, never in strong bull trends. Never look to sell a strong bull trend - only look to buy, and H1 Bull Flag is a good reason to buy.",
+      "key_concepts": ["Strong bull trend characteristics", "Never sell in strong bull trend", "L1-L6 micro pullbacks", "Trading Range transition", "H1 Bull Flag buy setup"]
+    },
+    {
+      "slide_number": "slide45",
+      "title": "Low 4: Usually Low 2 on Higher Time Frame",
+      "description": "This slide demonstrates the relationship between timeframes and bar counting patterns. It shows a comparison between Low 4 on a 5-minute chart versus Low 2 on a 10-minute chart. The left chart shows L1, L2, L3, L4 progression on the 5-minute timeframe, while the right chart shows the same price action as L1, L2 o

@@ -96,7 +96,9 @@
       "Bash(grep -rn \"!\\\\[\" docs/ --include=\"*.md\" 2>/dev/null | head -30)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Skill(ralph-loop:cancel-ralph)"
+      "Skill(ralph-loop:cancel-ralph)",
+      "Bash(openspec archive:*)",
+      "Bash(mkdir:*)"
     ]
   }
 }

@@ -1,0 +1,117 @@
+{
+  "analysis_title": "Pullbacks and Bar Counting Technical Analysis - Slides 01-17",
+  "source_directory": "C:\code\CookBook\docs\images\09 Pullbacks and bar counting",
+  "total_slides": 17,
+  "slides": [
+    {
+      "slide_number": "slide01",
+      "image_file": "slide01_image1.png",
+      "title": "Pullback: Minimum Requirement",
+      "analysis": "This slide establishes the fundamental definition of a pullback as the smallest reversal pattern. In a bull trend, a pullback occurs when the low of a bar falls below the low of the prior bar (marked with green highlight). Conversely, in a bear trend, a pullback occurs when the high of a bar rises above the high of the prior bar (marked with red highlight). This minimum requirement forms the basis for all subsequent pullback analysis. The chart example demonstrates both bull and bear pullback scenarios with visual annotations.",
+      "key_concepts": [
+        "Bull pullback: low below prior low",
+        "Bear pullback: high above prior high",
+        "Minimum reversal requirement"
+      ]
+    },
+    {
+      "slide_number": "slide02",
+      "image_file": "slide02_image1.png",
+      "title": "Implied Pullback: In Bull Trend",
+      "analysis": "This slide introduces the concept of implied pullbacks in bull trends. An implied pullback occurs when a doji bar or bear bar appears, even if its low does not fall below the low of the prior bar. These are considered actual pullbacks on lower timeframes - for example, a 5-minute bear bar is an implied pullback on the 5-minute chart but represents an actual pullback on the 1-minute chart. The slide shows two chart examples demonstrating how implied pullbacks appear in bull trends with green highlighting and annotations.",
+      "key_concepts": [
+        "Implied pullback definition",
+        "Doji or bear bar in bull trend",
+        "Lower timeframe actual pullback",
+        "5min vs 1min chart relationship"
+      ]
+    },
+    {
+      "slide_number": "slide03",
+      "image_file": "slide03_image1.png",
+      "title": "Implied Pullback: In Bear Trend",
+      "analysis": "This slide presents the bear trend counterpart to implied pullbacks. In a bear trend, an implied pullback occurs when a doji bar or bull bar appears, even if its high does not rise above the high of the prior bar. Similar to the bull trend case, these represent actual pullbacks on lower timeframes. The chart examples show a 5-minute bear doji as an implied pullback that is an actual pullback on the 1-minute chart, with annotations indicating when the high of the bar went above the high of the prior bar.",
+      "key_concepts": [
+        "Bear trend implied pullback",
+        "Doji or bull bar in bear trend",
+        "High not above prior high",
+        "Lower timeframe perspective"
+      ]
+    },
+    {
+      "slide_number": "slide04",
+      "image_file": "slide04_image1.png",
+      "title": "Pullback: Trend Usually Resumes",
+      "analysis": "This slide emphasizes the high-probability nature of pullback entries. Pullbacks in trends typically provide high-probability, low-risk entry opportunities. Bulls buy on reversal back up, betting on trend resumption, and use wide stops. The chart shows detailed price action with annotations indicating various pullback points, including PBs that fell below the low of the prior bar and tails that represent pullbacks on lower timeframes. The visual includes multiple stop levels and illustrates how trend resumption occurs after pullback periods.",
+      "key_concepts": [
+        "High probability pullback entries",
+        "Bulls buy on reversal",
+        "Wide stop usage",
+        "Trend resumption betting"
+      ]
+    },
+    {
+      "slide_number": "slide05",
+      "image_file": "slide05_image1.png",
+      "title": "Pullback: Can Grow into TR",
+      "analysis": "This slide explains how pullbacks can evolve into trading ranges (TR). When a pullback grows to 20 or more bars, it is considered a Trading Range rather than a simple pullback. At this point, the probability for bulls becomes about the same as for bears - the edge that existed during the trend is neutralized. The chart shows a large highlighted area representing an extended pullback that has become a trading range, with annotations explaining the shift in probability dynamics.",
+      "key_concepts": [
+        "Pullback growth into Trading Range",
+        "20+ bars becomes TR",
+        "Probability equalization",
+        "Loss of trend edge"
+      ]
+    },
+    {
+      "slide_number": "slide06",
+      "image_file": "slide06_image1.png",
+      "title": "Strong Trend: Why Does It Pull Back?",
+      "analysis": "This slide explains the mechanics behind pullbacks in strong trends. As a trend continues, price moves further from the stop level, increasing risk. Institutions must prevent risk from becoming too large, so they reduce position size by taking profits. When bulls take profits, the market pulls back and moves sideways to down. Once bulls become confident that bears will fail to reverse the trend, they buy again with a tighter stop. The chart illustrates this cycle with stop level annotations and profit-taking zones.",
+      "key_concepts": [
+        "Profit-taking causes pullbacks",
+        "Institutional risk management",
+        "Position size reduction",
+        "Tighter stops on re-entry"
+      ]
+    },
+    {
+      "slide_number": "slide07",
+      "image_file": "slide07_image1.png",
+      "title": "Deep Pullback: If Premise Still Good, Trend Continues",
+      "analysis": "This slide addresses deep pullbacks that extend beyond normal levels. Some pullbacks go all the way to the beginning of the trend or beyond. As long as the premise remains valid, the trend is still considered intact. The chart shows three scenarios: (1) rallies often go above resistance in bear trends, (2) prices often fall below support in bull trends, and (3) deep pullbacks to double bottom higher low major trend reversals that hold slightly above prior lows. These deep pullbacks test the trend's integrity.",
+      "key_concepts": [
+        "Deep pullback definition",
+        "Premise validity assessment",
+        "Beyond trend beginning",
+        "Support/resistance breaks"
+      ]
+    },
+    {
+      "slide_number": "slide08",
+      "image_file": "slide08_image1.png",
+      "title": "50% Pullback: Most Important",
+      "analysis": "This is the first of two slides on 50% pullbacks - the most important pullback level in trading. A 50% pullback in a bear trend means the distance to the stop (risk) equals the distance to the bottom of the bear trend (minimum reward). Probability favors trend resumption, so traders prefer to sell on 50% pullbacks in bear trends. Conversely, traders buy 50% pullbacks in bull trends. This 50% level forms the mathematical basis for much of trading analysis. The chart shows price action with 50% level annotations.",
+      "key_concepts": [
+        "50% pullback importance",
+        "Risk equals reward at 50%",
+        "Trend resumption probability",
+        "Mathematical trading basis"
+      ]
+    },
+    {
+      "slide_number": "slide09",
+      "image_file": "slide09_image1.png",
+      "title": "50% Pullback: Most Important (Continued)",
+      "analysis": "This continuation slide provides specific trading rules for 50% pullbacks. Bears look to sell at 50% pullbacks from a selloff, while bulls look to buy at 50% pullbacks from a rally. These levels are critical decision points for traders. The chart illustrates multiple 50% pullback levels with horizontal lines showing where traders should be looking for entries. The visual demonstrates how price consistently reacts at these 50% levels, making them high-probability trading locations.",
+      "key_concepts": [
+        "Sell 50% PB from selloff",
+        "Buy 50% PB from rally",
+        "Critical decision points",
+        "High-probability entries"
+      ]
+    },
+    {
+      "slide_number": "slide10",
+      "image_file": "slide10_image1.png",
+      "title": "Pullback: Sometimes Falls below Bull Breakout If in TR",
+      "analysis": "This slide explains compl
